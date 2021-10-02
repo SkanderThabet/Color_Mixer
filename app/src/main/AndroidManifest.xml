@@ -10,6 +10,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ColorMixer">
         <activity
+            android:name=".FailAct"
+            android:exported="true" />
+        <activity
+            android:name=".successAct"
+            android:exported="true" />
+        <activity
+            android:name=".test"
+            android:exported="true" />
+        <activity
+            android:name=".MixCheck"
+            android:exported="true" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
